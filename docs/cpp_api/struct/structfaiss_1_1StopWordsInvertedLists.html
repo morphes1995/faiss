@@ -23,7 +23,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Struct faiss::Top1BlockResultHandler" href="structfaiss_1_1Top1BlockResultHandler.html" />
+    <link rel="next" title="Struct faiss::TimeoutCallback" href="structfaiss_1_1TimeoutCallback.html" />
     <link rel="prev" title="Struct faiss::SliceInvertedLists" href="structfaiss_1_1SliceInvertedLists.html" /> 
 </head>
 
@@ -307,6 +307,7 @@
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1SimulatedAnnealingParameters.html">Struct faiss::SimulatedAnnealingParameters</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1SliceInvertedLists.html">Struct faiss::SliceInvertedLists</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Struct faiss::StopWordsInvertedLists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1TimeoutCallback.html">Struct faiss::TimeoutCallback</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1Top1BlockResultHandler.html">Struct faiss::Top1BlockResultHandler</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1Top1BlockResultHandler_1_1SingleResultHandler.html">Struct faiss::Top1BlockResultHandler::SingleResultHandler</a></li>
 <li class="toctree-l2"><a class="reference internal" href="structfaiss_1_1TransformedVectors.html">Struct faiss::TransformedVectors</a></li>
@@ -543,12 +544,13 @@
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4NK5faiss22StopWordsInvertedLists8is_emptyE6size_tPv">
-<span id="_CPPv3NK5faiss22StopWordsInvertedLists8is_emptyE6size_tPv"></span><span id="_CPPv2NK5faiss22StopWordsInvertedLists8is_emptyE6size_tPv"></span><span id="faiss::StopWordsInvertedLists::is_empty__s.voidPC"></span><span class="target" id="structfaiss_1_1InvertedLists_1a6d043287bb767a996b5b6873f69f6d44"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_empty</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">list_no</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">inverted_list_context</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv3NK5faiss22StopWordsInvertedLists8is_emptyE6size_tPv"></span><span id="_CPPv2NK5faiss22StopWordsInvertedLists8is_emptyE6size_tPv"></span><span id="faiss::StopWordsInvertedLists::is_empty__s.voidPC"></span><span class="target" id="structfaiss_1_1InvertedLists_1adc9d4472a745350a9dcbc92f799e73fe"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">is_empty</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">list_no</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">inverted_list_context</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">nullptr</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><br /></dt>
+<dd><p>check if the list is empty </p>
+</dd></dl>
 
 <dl class="cpp function">
 <dt class="sig sig-object cpp" id="_CPPv4NK5faiss22StopWordsInvertedLists12get_iteratorE6size_tPv">
-<span id="_CPPv3NK5faiss22StopWordsInvertedLists12get_iteratorE6size_tPv"></span><span id="_CPPv2NK5faiss22StopWordsInvertedLists12get_iteratorE6size_tPv"></span><span id="faiss::StopWordsInvertedLists::get_iterator__s.voidPC"></span><span class="target" id="structfaiss_1_1InvertedLists_1a62e70c35c228a54bb682db61539d6995"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss21InvertedListsIteratorE" title="faiss::InvertedListsIterator"><span class="n"><span class="pre">InvertedListsIterator</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">get_iterator</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">list_no</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">inverted_list_context</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><br /></dt>
+<span id="_CPPv3NK5faiss22StopWordsInvertedLists12get_iteratorE6size_tPv"></span><span id="_CPPv2NK5faiss22StopWordsInvertedLists12get_iteratorE6size_tPv"></span><span id="faiss::StopWordsInvertedLists::get_iterator__s.voidPC"></span><span class="target" id="structfaiss_1_1InvertedLists_1ad800c9d43b933414ee102c2613bc3498"></span><span class="k"><span class="pre">virtual</span></span><span class="w"> </span><a class="reference internal" href="../file/InvertedLists_8h.html#_CPPv4N5faiss21InvertedListsIteratorE" title="faiss::InvertedListsIterator"><span class="n"><span class="pre">InvertedListsIterator</span></span></a><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="sig-name descname"><span class="n"><span class="pre">get_iterator</span></span></span><span class="sig-paren">(</span><span class="n"><span class="pre">size_t</span></span><span class="w"> </span><span class="n sig-param"><span class="pre">list_no</span></span>, <span class="kt"><span class="pre">void</span></span><span class="w"> </span><span class="p"><span class="pre">*</span></span><span class="n sig-param"><span class="pre">inverted_list_context</span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">nullptr</span></span><span class="sig-paren">)</span><span class="w"> </span><span class="k"><span class="pre">const</span></span><br /></dt>
 <dd><p>get iterable for lists that use_iterator </p>
 </dd></dl>
 
@@ -630,8 +632,9 @@
 
 <dl class="cpp var">
 <dt class="sig sig-object cpp" id="_CPPv4N5faiss22StopWordsInvertedLists12use_iteratorE">
-<span id="_CPPv3N5faiss22StopWordsInvertedLists12use_iteratorE"></span><span id="_CPPv2N5faiss22StopWordsInvertedLists12use_iteratorE"></span><span id="faiss::StopWordsInvertedLists::use_iterator__b"></span><span class="target" id="structfaiss_1_1InvertedLists_1a8d364ca073bda125730576b8cda17c9d"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">use_iterator</span></span></span><br /></dt>
-<dd></dd></dl>
+<span id="_CPPv3N5faiss22StopWordsInvertedLists12use_iteratorE"></span><span id="_CPPv2N5faiss22StopWordsInvertedLists12use_iteratorE"></span><span id="faiss::StopWordsInvertedLists::use_iterator__b"></span><span class="target" id="structfaiss_1_1InvertedLists_1a8d364ca073bda125730576b8cda17c9d"></span><span class="kt"><span class="pre">bool</span></span><span class="w"> </span><span class="sig-name descname"><span class="n"><span class="pre">use_iterator</span></span></span><span class="w"> </span><span class="p"><span class="pre">=</span></span><span class="w"> </span><span class="k"><span class="pre">false</span></span><br /></dt>
+<dd><p>request to use iterator rather than get_codes / get_ids </p>
+</dd></dl>
 
 </div>
 <div class="breathe-sectiondef docutils container">
@@ -652,7 +655,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="structfaiss_1_1SliceInvertedLists.html" class="btn btn-neutral float-left" title="Struct faiss::SliceInvertedLists" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="structfaiss_1_1Top1BlockResultHandler.html" class="btn btn-neutral float-right" title="Struct faiss::Top1BlockResultHandler" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="structfaiss_1_1TimeoutCallback.html" class="btn btn-neutral float-right" title="Struct faiss::TimeoutCallback" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
